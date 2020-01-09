@@ -49,11 +49,33 @@ display: inline;
 }
 .contact-me{
   background-color: black;
-  margin: 3% auto auto auto;
+  margin-top: 2%;
+  margin-bottom: 1%;
 }
 .btn{
-  color: white;
-  font-family: serif;
+    font-family: arial;
+    color: #000000;
+    font-size: 20px;
+    text-shadow: 1px 1px #7CACDE;
+    box-shadow: 1px 1px 3px #EAF7F9;
+    -moz-border-radius: 22px;
+    -webkit-border-radius: 22px;
+    padding: 7px 14px;
+    border-radius: 22px;
+    border: 2px solid #3866A3;
+    background: #63B8EE;
+    background: linear-gradient(top,  #FFFCFD,  #CFCFCF);
+    background: -ms-linear-gradient(top,  #FFFCFD,  #CFCFCF);
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFFCFD), to(#CFCFCF));
+    background: -moz-linear-gradient(top,  #FFFCFD,  #CFCFCF);
+}
+.btn:hover{
+  color: #14396A;
+  background: #468CCF;
+  background: linear-gradient(top,  #CFCFCF,  #63B8EE);
+  background: -ms-linear-gradient(top,  #CFCFCF,  #63B8EE);
+  background: -webkit-gradient(linear, left top, left bottom, from(#CFCFCF), to(#63B8EE));
+  background: -moz-linear-gradient(top,  #CFCFCF,  #63B8EE);
 }
 .footer-link{
   color: white;
