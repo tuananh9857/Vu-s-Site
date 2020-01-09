@@ -1,0 +1,74 @@
+body {
+  background-image: url("middle-container.jpg");
+  background-repeat: no-repeat;
+  background-color: black;
+  position: relative;
+  color: white;
+  margin: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 30px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0 auto;
+}
+
+h2{
+  margin: 0 auto;
+}
+h3{
+  position: relative;
+  margin: 0 auto;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 20px;
+
+}
+.top-icon{
+display: inline;
+}
+.programer {
+  position: relative;
+  font-size: 45px;
+  text-decoration: underline;
+  margin-top: 5px;
+}
+.middle-container{
+  position: relative;
+
+}
+.bottom-container{
+  position: relative;
+  background-color: black;
+}
+.contact-me{
+  background-color: black;
+  margin: 0;
+}
+.btn{
+  color: white;
+  font-family: serif;
+}
+.footer-link{
+  color: white;
+    font-family: serif;
+    font-size: 20px;
+}
+.text{
+  font-family: serif;
+}
+.heart{
+  color: red;
+}
+.skill1{
+  background-color: grey;
+  border-radius: 50%;
+}
+table,tr{
+  padding-top: 30px;
+  font-family: monospace;
+  width:100%;
+}
