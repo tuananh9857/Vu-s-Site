@@ -5,9 +5,12 @@ body {
   position: relative;
   color: white;
   margin: 0;
-  font-family: 'Sacramento', cursive;
+  font-family: serif;
   font-size: 30px;
   text-align: center;
+}
+.top-container{
+    font-family: 'Sacramento', cursive;
 }
 
 h1 {
@@ -46,7 +49,7 @@ display: inline;
 }
 .contact-me{
   background-color: black;
-  margin: 0;
+  margin: 3% auto auto auto;
 }
 .btn{
   color: white;
@@ -70,5 +73,13 @@ display: inline;
 table,tr{
   padding-top: 30px;
   font-family: monospace;
-  width:100%;
+  width: 100%;
+  margin: auto;
+}
+hr{
+  border: solid 6px;
+  border-style:dotted;
+  border-color: white;
+  border-bottom: none;
+  width: 6%;
 }
